@@ -59,16 +59,19 @@
     </section>
     <div class="divisor-line"></div>
     <section id="about">
-        <div class="section__text__p1">
-            <div class="shift-right">
-                <h1 class="title">Chi sono</h1>
-                <p id="chi_sono">Sono un ragazzo da poco laureato in informatica in cerca della mia prima esperienza come sviluppatore software</p>
-            </div>  
+        <div class="begin">
+            <img id="pic-chi-sono" src="./assets/chi_sono_pic.jpg">
+            <div class="section__text__p1">
+                <div id="chi_sono_text">
+                    <h1 class="title">Chi sono</h1>
+                    <p id="chi_sono">Sono un ragazzo da poco laureato in informatica in cerca della mia prima esperienza come sviluppatore software</p>
+                </div>  
+            </div>
         </div>  
 
         
         <div class="whole-frameworks-container">
-            <div class="section__text__p1">
+            <div id="framework-comments" class="section__text__p1">
                 <h1 id="linguaggi" class="title">Linguaggi, Framework e Librerie</h1>
                 <p>Imparati in Università, Stage o in privato</p>
             </div>
@@ -106,27 +109,92 @@
                 </div>
             </div>
         </div>
-        
-        
-        <!-- <p class="section__text__p1">get to know more</p>
-        <h1 class="title">Su di me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/about-pic.png" 
-                alt="profile picture"
-                class="about-pic"
-                >
-                <h3>Esperienza</h3>
-                <p></p>
+    </section>
+
+    <div id="divisor-experience" class="divisor-line"></div>
+
+    <section id="experience">
+        <h1 class="title">Esperienza</h1>
+        <div id="sezioneProfessione" class="begin">
+            <video id="video" width="480" height="270" controls>
+                <source src="./assets/video_stage.mov">
+            </video>
+            <div class="section__text__p1"></div>
+                <div class="descrizioneEsperienza">
+                    <p id="titoloEsperienza" class="section__text__p2">Sviluppo di un Tool per la creazione di Curriculum Online (FULLSTACK)</p>
+                    <p id="infoEsperienza" class="section__text_p1">Durante questa esperienza lavorativa ho sviluppato un tool per la creazione di Curriculum Online, preoccupandomi sia del lato Frontend che Backend appoggiandomi a librerie e Framework come React, SpringBoot e JPA</p>
+                </div>  
             </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" alt="esperienza icona" class="icon">
-                    </div>
-                </div>
+        </div>
+    </section>
+
+    <div id="divisor-education" class="divisor-line"></div>
+    
+    <section id="education">
+        <h1 class="title">Formazione</h1>
+        <div id="sezioneFormazione" class="begin">
+            <div class="containerFormazione">
+                <img id="bicoccaPic" src="./assets/Bicocca.jpg">
+                <div id="descrizioneFormazione" class="descrizioneEsperienza">
+                    <p class="titoloFormazione1">Laurea Triennale Informatica</p>
+                    <p class="titoloFormazione2">Bicocca Milano</p>
+                    <p class="section__text_p1">Alcuni dei miei voti:</p>
+                    <ul class="voti">
+                        <li>Programmazione - 29</li>
+                        <li>Algoritmi - 30L</li>
+                        <li>Database - 28</li>
+                        <li>Reti e Sistemi Operativi - 30</li>
+                        <li>Programmazione di Dispositivi Mobili - 30L</li>
+                        <li>Sistemi Distribuiti - 27</li>
+                        <li>Interazione Uomo-Macchina - 27</li>
+
+                    </ul>
+                </div> 
+            </div> 
+            <div class="containerFormazione">
+                <img id="bicoccaPic" src="./assets/superiori.jpg">
+                <div id="descrizioneFormazione" class="descrizioneEsperienza">
+                    <p class="titoloFormazione1">Liceo Scienze Applicate</p>
+                    <p class="titoloFormazione2">Marconi-Galletti-Einaudi</p>
+                    <p class="section__text_p1">Valutazione Finale:</p>
+                    <ul class="voti">
+                        <li>77/100</li>
+                    </ul>
+                </div> 
+            </div> 
+        </div>
+            
+        
+     
+
+        
+    </section>
+    <div id="divisor-education" class="divisor-line"></div>
+    <section id="contact">
+    <div id="contattami-container">
+        <p class="section__text">Per offerte di lavoro</p>
+        <h1 class="title">Contattami</h1>
+    </div>
+    <div id="contact-card">
+        <div id="whole-contact-container">
+            <div id="email">
+                <img id="basic-email" class="icon" src="./assets/email.png">
+                <p class="section__text">simone_alessandrini1999@hotmail.com</p>
+                <img class="icon" src="./assets/linkedin.png" onclick="location.href='https:\/\/linkedin.com/in/simone-alessandrini-aa10a1327'">
+                <p class="section__text">LinkedIn</p>
             </div>
-        </div> -->
+        </div>
+    </div>
+    <div>
+        <ul class="nav-links-2">
+            <li><a href="#about">Chi sono</a></li>
+            <li><a href="#experience">Esperienza</a></li>
+            <li><a href="#education">Formazione</a></li>
+            <li><a href="#contact">Contatti</a></li>
+        </ul>
+    </div>
+    <section id="contact">
+
     </section>
     <script src="script.js"></script>
 </body>
