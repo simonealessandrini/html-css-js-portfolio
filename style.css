@@ -151,8 +151,8 @@ a:hover {
 
 section{
     padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10 rem;
+  
+    margin: 0;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -164,9 +164,12 @@ section{
 #profile{
     margin-top: -35px;
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    width: 100%;
 }
 
 .section__pic-container{
@@ -263,9 +266,15 @@ section{
 
 #about{
     margin-top: 50px ;
-
-    justify-content: center;
     gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+}
+
+#experience{
+    height: 80vh;
 }
 
 .framework-image{
@@ -275,6 +284,7 @@ section{
 
 .frameworks-container{
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
     padding: 10px;
@@ -318,12 +328,15 @@ section{
 }
 
 #pic-chi-sono{
-    width: 25%;
+    width: 400px;
+    flex-shrink: 0;
     border-radius: 10px;
 }
 .begin{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap-reverse;
+    flex-grow: 0;
     gap: 7rem;
 }
 
@@ -343,6 +356,9 @@ section{
 #sezioneProfessione{
     margin-top: 80px;
     gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -354,6 +370,9 @@ section{
 
 .descrizioneEsperienza{
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #titoloEsperienza{
@@ -361,6 +380,7 @@ section{
     font-size: 1.5rem;
     color: black; 
 }
+
 
 #infoEsperienza{
     width: 700px;
@@ -374,7 +394,7 @@ section{
 }
 
 #divisor-education{
-    margin-top: -5px;
+    margin-top: 50px;
 }
 
 .titoloFormazione1{
@@ -448,6 +468,8 @@ section{
 
  #video{
     border-radius: 10px;
+    position: relative;
+    top:20px;
  }
 
 .containerFormazione{
